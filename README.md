@@ -1,12 +1,11 @@
-# IMCS_StocksStock Price Forecasting
-This repository contains the code for stock price forecasting using the ARIMA model. The model was tested on three stocks: EXX5, IQQE, and IUS4. Data for these stocks was collected from Yahoo Finance for the time window of May 2021 to May 2022.
+# IMCS Stocks Price Forecasting
 
 Steps in the code
 Importing Required Libraries
 The code starts by importing the required libraries such as pandas, numpy, matplotlib, and statsmodels.
 
 Data Collection
-The data for the stocks is collected from Yahoo Finance for the time window of May 2021 to May 2022. The data is loaded into a pandas dataframe.
+The data for the stocks is collected from Yfinance
 
 Data Preprocessing
 The data is preprocessed by checking for missing values, transforming the data into log-returns, and making the time series stationary.
