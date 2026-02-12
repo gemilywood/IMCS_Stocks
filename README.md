@@ -3,7 +3,11 @@
 Steps in the code
 Importing Required Libraries
 The code starts by importing the required libraries such as pandas, numpy, matplotlib, and statsmodels.
-*pip install pandas numpy matplotlib seaborn scipy statsmodels scikit-learn yfinance pmdarima tqdm*
+
+
+'''pip install pandas numpy matplotlib seaborn scipy statsmodels scikit-learn yfinance pmdarima tqdm'''
+Then restart kernel.
+
 
 Data Collection
 The data for the stocks is collected from Yfinance
